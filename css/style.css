@@ -38,7 +38,9 @@ footer {
  overflow-y: hidden;
  height: calc( 100vh - 110px );
  padding-right: 89px;
+ display: flex;
  flex-direction: column;
+ 
 }
 
 .box-right {
@@ -56,15 +58,13 @@ footer {
     top: 0;
 }
 .logo {
-    height: 60px;
+    
     padding: 10px;
     width: 144px;
 }
-.home {
-    height: 120px;
-}
+
 .users {
-    height: calc( 100% - 591px );
+    padding-left: 17px;
 }
 
 a {
@@ -80,6 +80,12 @@ li {
     width: 14%;
     vertical-align: middle;
  }
+ .playlist a {
+     color: gray;
+ }
+ .home a {
+     color: gray;
+ }
 
 h3 {
     padding:10px;
@@ -90,16 +96,18 @@ i {
     vertical-align: middle;
 }
 .playlist li {
-    color: lightgray;
+    color: gray;
     padding: 9px;
     list-style-type: none;
 }
 .playlist {
-    height: 411px;
+    flex-grow: 1;
+    
+   
 }
 .list{
     list-style-type: none;
-    color: lightgray;
+    color: gray;
     padding: 0 5px;
 }
 .container {
@@ -128,9 +136,38 @@ i {
     overflow-y: auto;
     height: 50%;
 }
-.donl-users {
-    color: white;
+.dwnl-users {
+    color: gray;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 213px;
+   
+
 }
-name-users {
+
+
+.name-users {
     color: white;
+    padding: 10px;
+}
+
+.app {
+    padding-left: 10px;
+}
+.app a {
+    color: gray;
+}
+
+.dwnl-users img {
+    width: 20px;
+    color: gray;
+}
+.img-profile img {
+    width: 20px;
+    border-radius: 10%;
+    color: white;
+    padding-top: 5px;
+}
+.gre {
+    border-left: 3px solid limegreen;
 }
