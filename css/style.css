@@ -27,7 +27,7 @@ main {
 footer {
     width: 100%;
     height: 110px;
-    background-color: cadetblue;
+    background-color: black;
     overflow: hidden;
 }
 
@@ -46,6 +46,7 @@ footer {
 .box-right {
     width: calc( 100% - 250px );
     overflow: auto;
+    background-color: black;
 }
 
 .banner {
@@ -69,7 +70,7 @@ footer {
 
 a {
     text-decoration: none;
-    color: white;
+    color: gray;
 }
 
 li {
@@ -107,7 +108,7 @@ i {
 }
 .list{
     list-style-type: none;
-    color: gray;
+   color: rebeccapurple;
     padding: 0 5px;
 }
 .container {
@@ -126,9 +127,9 @@ i {
 
 .card {
     
-    width: calc( ( 100% / 6)  - 4rem );
-    height: 30px;
-    border: 1px solid black;
+    width: calc( ( 100% / 6)  - 10px );
+    height: 100px;
+    border: 1px solid white;
 
 
 }
@@ -171,3 +172,99 @@ i {
 .gre {
     border-left: 3px solid limegreen;
 }
+.second {
+    display: none;
+}
+.card-all {
+    display: flex;
+    justify-content: space-between;
+}
+/* Hover Effects */
+.home :hover {
+    color: white;
+}
+.gre img :hover {
+   opacity: 0.9;
+}
+.playlist :hover {
+    color: white;
+}
+.app  :hover {
+    color: white;
+}
+ a :hover {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+ /* Md first */
+ @media  screen and  (max-width: 1100px ){
+
+
+  }
+      
+  
+/* s first */ 
+@media  screen and (max-width: 700px ) {
+
+    
+}
+
+/* xs first */
+@media screen and (max-width: 500px) {
+    .nav-left{
+       width: 25px;
+    }
+    .first {
+        display: none;
+    }
+     
+    .second {
+        width: 30px;
+        color: white;
+    }
+    .gre {
+        border: none;
+    }
+
+    .gre a {
+        display: none;
+    }
+    .gre img {
+        width: 30px;
+        padding-right: 5px;
+    }
+
+    .gre-1 a {
+        display: none;
+    }
+    .gre-1 img {
+        width: 30px;
+    }
+    .gre-2 a {
+        display: none;
+    }
+    .gre-2 img {
+        width: 30px;
+    }
+    .playlist {
+        display: none;
+    }
+
+   .app , .name-users {
+       display: none;
+   }
+   .dwnl-users {
+       border: none;
+   }
+   .dwnl-users img {
+       margin-top: 350px;
+   }
