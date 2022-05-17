@@ -21,7 +21,7 @@ main {
 }
 
 .flex {
-    display: flex;
+    display: flex
 }
 
 footer {
@@ -34,9 +34,11 @@ footer {
 /* MAIN */
 .nav-left {
  width: 250px ;
- background-color: chocolate;
+ background-color: black;
  overflow-y: hidden;
  height: calc( 100vh - 110px );
+ padding-right: 89px;
+ flex-direction: column;
 }
 
 .box-right {
@@ -54,8 +56,15 @@ footer {
     top: 0;
 }
 .logo {
+    height: 60px;
     padding: 10px;
     width: 144px;
+}
+.home {
+    height: 120px;
+}
+.users {
+    height: calc( 100% - 591px );
 }
 
 a {
@@ -63,6 +72,65 @@ a {
     color: white;
 }
 
-.home li {
-    padding: 10px;
+li {
+    padding:10px;
+    vertical-align: middle;
+}
+ .home img {
+    width: 14%;
+    vertical-align: middle;
+ }
+
+h3 {
+    padding:10px;
+    color: white;
+}
+i {
+    font-size: 40px;
+    vertical-align: middle;
+}
+.playlist li {
+    color: lightgray;
+    padding: 9px;
+    list-style-type: none;
+}
+.playlist {
+    height: 411px;
+}
+.list{
+    list-style-type: none;
+    color: lightgray;
+    padding: 0 5px;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.main-container {
+    width: 65%;
+    margin: 0 auto;
+    background-color: orange;
+    padding-top: 75px; 
+}
+.box-right h3 {
+    font-size: 25px;
+}
+
+.card {
+    
+    width: calc( ( 100% / 6)  - 4rem );
+    height: 30px;
+    border: 1px solid black;
+
+
+}
+.list {
+    overflow-y: auto;
+    height: 50%;
+}
+.donl-users {
+    color: white;
+}
+name-users {
+    color: white;
 }
